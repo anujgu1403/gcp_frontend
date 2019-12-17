@@ -5867,10 +5867,10 @@ jsesc@~0.5.0:
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
-jslib-html5-camera-photo@^3.0.2-beta.0:
-  version "3.0.2-beta.0"
-  resolved "https://registry.yarnpkg.com/jslib-html5-camera-photo/-/jslib-html5-camera-photo-3.0.2-beta.0.tgz#f395a2f3d55521b208967328d3d515a69889e9ef"
-  integrity sha512-AkNBvOb4n3umdD7F+NrIkDzO/1QOJFKP73eYh7ZUebLDqQREUQnvRlqUBT38nTHhIhxPfD9G2qlBbkUfwkHJrA==
+jslib-html5-camera-photo@3.1.3, jslib-html5-camera-photo@latest:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/jslib-html5-camera-photo/-/jslib-html5-camera-photo-3.1.3.tgz#37008b64b539ad283c83a1de2724e8a6c4d0f6c6"
+  integrity sha512-8vJwX0a6o82+AJur7KntGvGLYhfxN5h7HRNd77zuoLOi3/Rd+5L47gL9MwTHdtWu3J3VC3a3MuC4KiW8l8HXzA==
 
 json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
@@ -6224,9 +6224,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 "lodash@>=3.5 <5", lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@latest:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 loglevel@^1.4.1:
   version "1.6.1"
@@ -8296,6 +8296,13 @@ react-event-listener@^0.6.2:
     "@babel/runtime" "^7.2.0"
     prop-types "^15.6.0"
     warning "^4.0.1"
+
+react-html5-camera-photo@^1.3.0:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/react-html5-camera-photo/-/react-html5-camera-photo-1.5.4.tgz#a2a8b979c1c2f91aba5de3273e8b08f328b714c7"
+  integrity sha512-uourTihaJQjqfqyE/Za/SV5DcUzvxOR7Rc85CyxuB+I7p1QpE84VDKyNkr+GweJ2KkbOvWLJ5gZrenRoXLA78g==
+  dependencies:
+    jslib-html5-camera-photo "3.1.3"
 
 react-image-gallery@^0.8.12:
   version "0.8.12"
