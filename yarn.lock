@@ -2798,9 +2798,9 @@ css-vendor@^0.3.8:
     is-in-browser "^1.0.2"
 
 css-what@2.1, css-what@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/css-what/-/css-what-2.1.2.tgz#c0876d9d0480927d7d4920dcd72af3595649554d"
-  integrity sha512-wan8dMWQ0GUeF7DGEPVjhHemVW/vy6xUYmFzRY8RYqgA0JtXC9rJmbScBjqSu6dg9q0lwPQy6ZAmJVr3PPTvqQ==
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/css-what/-/css-what-2.1.3.tgz#a6d7604573365fe74686c3f311c56513d88285f2"
+  integrity sha512-a+EPoD+uZiNfh+5fxw2nO9QwFa6nJe2Or35fGY6Ipw1R3R4AGz1d1TEZrCegvw2YTmZ0jXirGYlzxxpYSHwpEg==
 
 cssdb@^4.1.0:
   version "4.3.0"
@@ -5867,10 +5867,10 @@ jsesc@~0.5.0:
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
-jslib-html5-camera-photo@^3.0.2-beta.0:
-  version "3.0.2-beta.0"
-  resolved "https://registry.yarnpkg.com/jslib-html5-camera-photo/-/jslib-html5-camera-photo-3.0.2-beta.0.tgz#f395a2f3d55521b208967328d3d515a69889e9ef"
-  integrity sha512-AkNBvOb4n3umdD7F+NrIkDzO/1QOJFKP73eYh7ZUebLDqQREUQnvRlqUBT38nTHhIhxPfD9G2qlBbkUfwkHJrA==
+jslib-html5-camera-photo@3.3.4, jslib-html5-camera-photo@latest:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/jslib-html5-camera-photo/-/jslib-html5-camera-photo-3.3.4.tgz#ae859b1747f8dd709edeb98ea28a5c0802871157"
+  integrity sha512-qysjLnP4bud0+g0qs5uA/7i569x+6ID2ufgezf9XQ+BE3EvhYjz177vi9WXLEuq+V6C/WXEv73NUICvHm5VGmQ==
 
 json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
@@ -8296,6 +8296,13 @@ react-event-listener@^0.6.2:
     "@babel/runtime" "^7.2.0"
     prop-types "^15.6.0"
     warning "^4.0.1"
+
+react-html5-camera-photo@^1.3.0:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/react-html5-camera-photo/-/react-html5-camera-photo-1.5.10.tgz#8a6053fa4965901245de763eef75b9dee7f37ded"
+  integrity sha512-tzmTDklcaW5vmVJPVEGnxTTXoTF/lUsZ3z3C2a9ZZJf6SYHJkFBG6jv7MX/AG76jSALyNUvGpGkguprphy0aBQ==
+  dependencies:
+    jslib-html5-camera-photo "3.3.4"
 
 react-image-gallery@^0.8.12:
   version "0.8.12"
